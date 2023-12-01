@@ -97,7 +97,7 @@ proxies:
   dns:
   - 1.1.1.1
   - 8.8.8.8
-  dialer-proxy: 🛑 WARP前置节点
+  dialer-proxy: WARP前置节点
 - name: meta_hysteria_01
   type: hysteria
   server: 167.160.90.251
@@ -277,32 +277,74 @@ proxies:
   alpn:
   - h3
 proxy-groups:
-- name: 🚀 节点选择
+- name: 节点选择
   type: select
   proxies:
-  - 🛑 WARP
-  - ♻️ 自动选择
-  - 🎯 负载均衡
-  - 🚀 手动选择
+  - WARP
+  - 自动选择
+  - 负载均衡
+  - 手动选择
   - DIRECT
-- name: 🛑 WARP前置节点
+- name: WARP前置节点
   type: select
   proxies:
-  - ♻️ 自动选择
-  - 🎯 负载均衡
-  - 🚀 手动选择
-- name: ♻️ 自动选择
+  - 自动选择
+  - 负载均衡
+  - 手动选择
+- name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-  proxies: null
-- name: 🚀 手动选择
+  proxies:
+  - meta_hysteria_01
+  - meta_tuic_11
+  - meta_tuic_21
+  - meta_tuic_31
+  - meta_hysteria_41
+  - meta_tuic_51
+  - meta_tuic_61
+  - meta_hysteria_71
+  - meta_hysteria_81
+  - meta_tuic_91
+  - hysteria_0
+  - hysteria_1
+  - hysteria_2
+  - hysteria_3
+- name: 手动选择
   type: select
-  proxies: null
-- name: 🎯 负载均衡
+  proxies:
+  - meta_hysteria_01
+  - meta_tuic_11
+  - meta_tuic_21
+  - meta_tuic_31
+  - meta_hysteria_41
+  - meta_tuic_51
+  - meta_tuic_61
+  - meta_hysteria_71
+  - meta_hysteria_81
+  - meta_tuic_91
+  - hysteria_0
+  - hysteria_1
+  - hysteria_2
+  - hysteria_3
+- name: 负载均衡
   type: load-balance
-  proxies: null
+  proxies:
+  - meta_hysteria_01
+  - meta_tuic_11
+  - meta_tuic_21
+  - meta_tuic_31
+  - meta_hysteria_41
+  - meta_tuic_51
+  - meta_tuic_61
+  - meta_hysteria_71
+  - meta_hysteria_81
+  - meta_tuic_91
+  - hysteria_0
+  - hysteria_1
+  - hysteria_2
+  - hysteria_3
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
