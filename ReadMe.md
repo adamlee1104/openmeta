@@ -2,8 +2,6 @@
 
 **注意：clash内核无法使用这些节点，你要用clashmeta**
 
-开启浏览器自带doh以及客户端tun模式也可绕过封锁，参考：https://blog.mareep.net/posts/9993/
-
 
 ## 注意事项
 
@@ -23,36 +21,6 @@
 然后本地创建一个yaml文件，参考：[issues #20](https://github.com/vveg26/chromego_merge/issues/20)
 
 </details>
-
-## 订阅链接分享
-### 不套warp版本（clashmeta）
-**不含hysteria2节点**
-```
-https://mareep.netlify.app/sub/merged_proxies.yaml
-```
-**含hysteria2节点(节点最全）**
-```
-https://mareep.netlify.app/sub/merged_proxies_new.yaml
-```
-### 套warp版本（clashmeta)
-**不含hysteria2节点**
-```
-https://mareep.netlify.app/sub/merged_warp_proxies.yaml
-```
-**含hysteria2节点(节点最全）**
-```
-https://mareep.netlify.app/sub/merged_warp_proxies_new.yaml
-```
-### 通用链接 （shadowrocket和nekoray）
-```
-https://mareep.netlify.app/sub/shadowrocket_base64.txt
-```
-
-### sing-box订阅链接
-
-```
-https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merged_proxies_new.yaml
-```
 
 ## 客户端推荐
 ### Windows
