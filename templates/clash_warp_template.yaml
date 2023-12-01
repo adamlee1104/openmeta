@@ -93,25 +93,25 @@ proxies:
     reserved: [0,0,0]
     remote-dns-resolve: true  
     dns: [ 1.1.1.1, 8.8.8.8 ]
-    dialer-proxy: "🛑 WARP前置节点"
+    dialer-proxy: "WARP前置节点"
 
 proxy-groups:
-  - name: 🚀 节点选择
+  - name: 节点选择
     type: select
     proxies:
-      - 🛑 WARP
-      - ♻️ 自动选择
-      - 🎯 负载均衡
-      - 🚀 手动选择
+      - WARP
+      - 自动选择
+      - 负载均衡
+      - 手动选择
       - DIRECT
-  - name: 🛑 WARP前置节点
+  - name: WARP前置节点
     type: select
     proxies:
-      - ♻️ 自动选择
-      - 🎯 负载均衡
-      - 🚀 手动选择
+      - 自动选择
+      - 负载均衡
+      - 手动选择
 
-  - name: ♻️ 自动选择
+  - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -119,12 +119,12 @@ proxy-groups:
     proxies:
 
 
-  - name: 🚀 手动选择
+  - name: 手动选择
     type: select
     proxies:
 
 
-  - name: 🎯 负载均衡
+  - name: 负载均衡
     type: load-balance
     proxies:
 
