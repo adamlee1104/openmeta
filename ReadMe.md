@@ -18,25 +18,7 @@
 
 [warp+机器人](https://t.me/generatewarpplusbot)
 
-然后本地创建一个yaml文件，参考：[issues #20](https://github.com/vveg26/chromego_merge/issues/20)
-
 </details>
-
-## 客户端推荐
-### Windows
-- [clash verge](https://github.com/zzzgydi/clash-verge/releases) 
-- [nekoray](https://github.com/MatsuriDayo/nekoray)
-### android
-- [nekobox](https://github.com/MatsuriDayo/NekoBoxForAndroid)
-- [clashmeta for android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)
-
-### ios
-- shadowrocket
-
-### macos
-- [clashx.meta](https://github.com/MetaCubeX/ClashX.Meta/releases)
-- [clash verge](https://github.com/zzzgydi/clash-verge/releases) 
-- shadowrocket
 
 ## 致谢
 - [Alvin9999](https://github.com/Alvin9999/pac2/tree/master)
