@@ -134,6 +134,65 @@ proxy-groups:
     #disable-udp: true
     strategy: round-robin
 
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 手动选择
+      - 负载均衡
+      - 🎯 全球直连
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 手动选择
+      - 负载均衡
+      - 🎯 全球直连
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 手动选择
+      - 负载均衡
+      - 🎯 全球直连
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 手动选择
+      - 负载均衡
+      - 🎯 全球直连
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 自动选择
+      - 手动选择
+      - 负载均衡
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 手动选择
+      - 负载均衡
+      - 🎯 全球直连
+
 rules:
     - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
     - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
