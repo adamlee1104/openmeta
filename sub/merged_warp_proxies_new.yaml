@@ -461,7 +461,6 @@ rules:
 - DOMAIN-SUFFIX,lan,🎯 全球直连
 - DOMAIN-SUFFIX,local,🎯 全球直连
 - DOMAIN-SUFFIX,localhost,🎯 全球直连
-- IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
 - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
 - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
 - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
@@ -473,12 +472,9 @@ rules:
 - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
 - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
 - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
-- DOMAIN,clash.razord.top,🎯 全球直连
-- DOMAIN,yacd.haishan.me,🎯 全球直连
 - DOMAIN,instant.arubanetworks.com,🎯 全球直连
 - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
 - DOMAIN,router.asus.com,🎯 全球直连
-- DOMAIN,www.asusrouter.com,🎯 全球直连
 - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
 - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
 - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
@@ -491,23 +487,6 @@ rules:
 - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
 - DOMAIN-SUFFIX,zte.home,🎯 全球直连
 - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
-- DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
-- DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
-- DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
-- DOMAIN,dl.google.com,🎯 全球直连
-- DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
-- DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
-- DOMAIN,origin-a.akamaihd.net,🎯 全球直连
-- DOMAIN,fairplay.l.qq.com,🎯 全球直连
-- DOMAIN,livew.l.qq.com,🎯 全球直连
-- DOMAIN,vd.l.qq.com,🎯 全球直连
-- DOMAIN,errlog.umeng.com,🎯 全球直连
-- DOMAIN,msg.umeng.com,🎯 全球直连
-- DOMAIN,msg.umengcloud.com,🎯 全球直连
-- DOMAIN,tracking.miui.com,🎯 全球直连
-- DOMAIN,app.adjust.com,🎯 全球直连
-- DOMAIN,bdtj.tagtic.cn,🎯 全球直连
-- DOMAIN,rewards.hypixel.net,🎯 全球直连
 - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
 - DOMAIN-KEYWORD,admaster,🛑 全球拦截
 - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -518,6 +497,7 @@ rules:
 - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
 - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
 - DOMAIN-KEYWORD,adwords,🛑 全球拦截
+- DOMAIN-KEYWORD,analysis,🛑 全球拦截
 - DOMAIN-KEYWORD,applovin,🛑 全球拦截
 - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
 - DOMAIN-KEYWORD,domob,🛑 全球拦截
@@ -531,6 +511,7 @@ rules:
 - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
 - DOMAIN-KEYWORD,socdm,🛑 全球拦截
 - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
+- DOMAIN-KEYWORD,usage,🛑 全球拦截
 - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
 - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
 - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
@@ -1264,6 +1245,7 @@ rules:
 - DOMAIN-SUFFIX,baidu9635.com,🍃 应用净化
 - DOMAIN-SUFFIX,baidustatic.com,🍃 应用净化
 - DOMAIN-SUFFIX,baidutv.baidu.com,🍃 应用净化
+- DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
 - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
 - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
 - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
@@ -1621,6 +1603,7 @@ rules:
 - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🍃 应用净化
 - DOMAIN-SUFFIX,union.mi.com,🍃 应用净化
 - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🍃 应用净化
+- DOMAIN-SUFFIX,xmpush.xiaomi.com,🍃 应用净化
 - DOMAIN-SUFFIX,ad.api.moji.com,🍃 应用净化
 - DOMAIN-SUFFIX,app.moji001.com,🍃 应用净化
 - DOMAIN-SUFFIX,cdn.moji002.com,🍃 应用净化
@@ -1815,6 +1798,7 @@ rules:
 - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
 - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
 - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
+- DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🍃 应用净化
 - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
 - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
 - DOMAIN-SUFFIX,union.6.cn,🍃 应用净化
@@ -2123,41 +2107,6 @@ rules:
 - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
 - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
 - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
-- DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt4-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt5-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt6-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,mtalk.google.com,📢 谷歌FCM
-- IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,64.233.188.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,64.233.189.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.23.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.24.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.28.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.127.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.137.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,142.250.31.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,142.250.96.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.217.194.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.217.218.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.217.219.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.253.63.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.253.122.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
 - DOMAIN-SUFFIX,265.com,🎯 全球直连
 - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
 - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -2169,24 +2118,32 @@ rules:
 - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
+- DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
+- DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
 - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
 - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
+- DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
+- DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
 - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
 - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
 - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
+- DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
 - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
 - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
 - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
+- DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
 - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
 - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
+- DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
 - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+- DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
 - DOMAIN,csgo.wmsj.cn,🎯 全球直连
 - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
 - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -2198,7 +2155,6 @@ rules:
 - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
 - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
 - DOMAIN,wmsjsteam.com,🎯 全球直连
-- DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
 - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
 - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
 - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
@@ -2215,11 +2171,8 @@ rules:
 - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
-- DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
-- DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
-- DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
@@ -2310,18 +2263,6 @@ rules:
 - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
 - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
 - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
-- DOMAIN-SUFFIX,t.me,📲 电报信息
-- DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
-- DOMAIN-SUFFIX,telegra.ph,📲 电报信息
-- DOMAIN-SUFFIX,telegram.me,📲 电报信息
-- DOMAIN-SUFFIX,telegram.org,📲 电报信息
-- DOMAIN-SUFFIX,telesco.pe,📲 电报信息
-- IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
-- IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
-- IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
-- IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
-- IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
-- IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
 - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
 - DOMAIN-SUFFIX,go.com,🌍 国外媒体
 - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
@@ -2353,7 +2294,6 @@ rules:
 - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
 - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
 - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-- DOMAIN-SUFFIX,seattlespheres.com,🌍 国外媒体
 - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
 - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
 - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
@@ -2540,40 +2480,6 @@ rules:
 - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
 - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
 - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-- DOMAIN-KEYWORD,nivod,🌍 国外媒体
-- DOMAIN-SUFFIX,biggggg.com,🌍 国外媒体
-- DOMAIN-SUFFIX,mudvod.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nbys.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nbys1.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nbyy.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,newpppp.com,🌍 国外媒体
-- DOMAIN-SUFFIX,nivod.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nivodi.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nivodz.com,🌍 国外媒体
-- DOMAIN-SUFFIX,vod360.net,🌍 国外媒体
-- DOMAIN-KEYWORD,olevod,🌍 国外媒体
-- DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
-- DOMAIN-SUFFIX,iole.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,olehd.com,🌍 国外媒体
-- DOMAIN-SUFFIX,olelive.com,🌍 国外媒体
-- DOMAIN-SUFFIX,olevod.com,🌍 国外媒体
-- DOMAIN-SUFFIX,olevod.io,🌍 国外媒体
-- DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
-- DOMAIN-KEYWORD,openai,🌍 国外媒体
-- DOMAIN-SUFFIX,ai.com,🌍 国外媒体
-- DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
-- DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
-- DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
-- DOMAIN-SUFFIX,events.statsigapi.net,🌍 国外媒体
-- DOMAIN-SUFFIX,featuregates.org,🌍 国外媒体
-- DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
-- DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
-- DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
-- DOMAIN-SUFFIX,openai.com,🌍 国外媒体
-- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
-- DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-- DOMAIN-SUFFIX,stripe.com,🌍 国外媒体
 - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
 - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
 - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
@@ -2584,7 +2490,7 @@ rules:
 - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
 - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
 - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-- DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
+- DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
 - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
 - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
 - DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
@@ -2597,7 +2503,7 @@ rules:
 - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
 - DOMAIN,hamifans.emome.net,🌍 国外媒体
 - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-- DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
+- DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
 - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
 - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
 - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -2644,419 +2550,436 @@ rules:
 - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
 - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
 - DOMAIN,music.youtube.com,🌍 国外媒体
-- DOMAIN-SUFFIX,1password.com,🚀 节点选择
-- DOMAIN-SUFFIX,adguard.org,🚀 节点选择
-- DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
-- DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
-- DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
-- DOMAIN-SUFFIX,dubox.com,🚀 节点选择
-- DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
-- DOMAIN-SUFFIX,garena.com,🚀 节点选择
-- DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
-- DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
-- DOMAIN-SUFFIX,ip138.com,🚀 节点选择
-- DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
-- DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
-- DOMAIN-SUFFIX,notion.so,🚀 节点选择
-- DOMAIN-SUFFIX,ping.pe,🚀 节点选择
-- DOMAIN-SUFFIX,reddit.com,🚀 节点选择
-- DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
-- DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
-- DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
-- DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
-- DOMAIN-SUFFIX,eu,🚀 节点选择
-- DOMAIN-SUFFIX,hk,🚀 节点选择
-- DOMAIN-SUFFIX,jp,🚀 节点选择
-- DOMAIN-SUFFIX,kr,🚀 节点选择
-- DOMAIN-SUFFIX,sg,🚀 节点选择
-- DOMAIN-SUFFIX,tw,🚀 节点选择
-- DOMAIN-SUFFIX,uk,🚀 节点选择
-- DOMAIN-KEYWORD,1e100,🚀 节点选择
-- DOMAIN-KEYWORD,abema,🚀 节点选择
-- DOMAIN-KEYWORD,appledaily,🚀 节点选择
-- DOMAIN-KEYWORD,avtb,🚀 节点选择
-- DOMAIN-KEYWORD,beetalk,🚀 节点选择
-- DOMAIN-KEYWORD,blogspot,🚀 节点选择
-- DOMAIN-KEYWORD,dropbox,🚀 节点选择
-- DOMAIN-KEYWORD,facebook,🚀 节点选择
-- DOMAIN-KEYWORD,fbcdn,🚀 节点选择
-- DOMAIN-KEYWORD,github,🚀 节点选择
-- DOMAIN-KEYWORD,gmail,🚀 节点选择
-- DOMAIN-KEYWORD,google,🚀 节点选择
-- DOMAIN-KEYWORD,instagram,🚀 节点选择
-- DOMAIN-KEYWORD,porn,🚀 节点选择
-- DOMAIN-KEYWORD,sci-hub,🚀 节点选择
-- DOMAIN-KEYWORD,spotify,🚀 节点选择
-- DOMAIN-KEYWORD,telegram,🚀 节点选择
-- DOMAIN-KEYWORD,twitter,🚀 节点选择
-- DOMAIN-KEYWORD,whatsapp,🚀 节点选择
-- DOMAIN-KEYWORD,youtube,🚀 节点选择
-- DOMAIN-SUFFIX,4sqi.net,🚀 节点选择
-- DOMAIN-SUFFIX,a248.e.akamai.net,🚀 节点选择
-- DOMAIN-SUFFIX,adobedtm.com,🚀 节点选择
-- DOMAIN-SUFFIX,ampproject.org,🚀 节点选择
-- DOMAIN-SUFFIX,android.com,🚀 节点选择
-- DOMAIN-SUFFIX,aolcdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,apkmirror.com,🚀 节点选择
-- DOMAIN-SUFFIX,apkpure.com,🚀 节点选择
-- DOMAIN-SUFFIX,app-measurement.com,🚀 节点选择
-- DOMAIN-SUFFIX,appspot.com,🚀 节点选择
-- DOMAIN-SUFFIX,archive.org,🚀 节点选择
-- DOMAIN-SUFFIX,armorgames.com,🚀 节点选择
-- DOMAIN-SUFFIX,aspnetcdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,awsstatic.com,🚀 节点选择
-- DOMAIN-SUFFIX,azureedge.net,🚀 节点选择
-- DOMAIN-SUFFIX,azurewebsites.net,🚀 节点选择
-- DOMAIN-SUFFIX,bandwagonhost.com,🚀 节点选择
-- DOMAIN-SUFFIX,bing.com,🚀 节点选择
-- DOMAIN-SUFFIX,bkrtx.com,🚀 节点选择
-- DOMAIN-SUFFIX,blogcdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,blogger.com,🚀 节点选择
-- DOMAIN-SUFFIX,blogsmithmedia.com,🚀 节点选择
-- DOMAIN-SUFFIX,blogspot.com,🚀 节点选择
-- DOMAIN-SUFFIX,blogspot.hk,🚀 节点选择
-- DOMAIN-SUFFIX,blogspot.jp,🚀 节点选择
-- DOMAIN-SUFFIX,bloomberg.cn,🚀 节点选择
-- DOMAIN-SUFFIX,bloomberg.com,🚀 节点选择
-- DOMAIN-SUFFIX,box.com,🚀 节点选择
-- DOMAIN-SUFFIX,cachefly.net,🚀 节点选择
-- DOMAIN-SUFFIX,cdnst.net,🚀 节点选择
-- DOMAIN-SUFFIX,cloudfront.net,🚀 节点选择
-- DOMAIN-SUFFIX,comodoca.com,🚀 节点选择
-- DOMAIN-SUFFIX,daum.net,🚀 节点选择
-- DOMAIN-SUFFIX,deskconnect.com,🚀 节点选择
-- DOMAIN-SUFFIX,disqus.com,🚀 节点选择
-- DOMAIN-SUFFIX,disquscdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,dropbox.com,🚀 节点选择
-- DOMAIN-SUFFIX,dropboxapi.com,🚀 节点选择
-- DOMAIN-SUFFIX,dropboxstatic.com,🚀 节点选择
-- DOMAIN-SUFFIX,dropboxusercontent.com,🚀 节点选择
-- DOMAIN-SUFFIX,duckduckgo.com,🚀 节点选择
-- DOMAIN-SUFFIX,edgecastcdn.net,🚀 节点选择
-- DOMAIN-SUFFIX,edgekey.net,🚀 节点选择
-- DOMAIN-SUFFIX,edgesuite.net,🚀 节点选择
-- DOMAIN-SUFFIX,eurekavpt.com,🚀 节点选择
-- DOMAIN-SUFFIX,fastmail.com,🚀 节点选择
-- DOMAIN-SUFFIX,firebaseio.com,🚀 节点选择
-- DOMAIN-SUFFIX,flickr.com,🚀 节点选择
-- DOMAIN-SUFFIX,flipboard.com,🚀 节点选择
-- DOMAIN-SUFFIX,gfx.ms,🚀 节点选择
-- DOMAIN-SUFFIX,gongm.in,🚀 节点选择
-- DOMAIN-SUFFIX,hulu.com,🚀 节点选择
-- DOMAIN-SUFFIX,id.heroku.com,🚀 节点选择
-- DOMAIN-SUFFIX,io.io,🚀 节点选择
-- DOMAIN-SUFFIX,issuu.com,🚀 节点选择
-- DOMAIN-SUFFIX,ixquick.com,🚀 节点选择
-- DOMAIN-SUFFIX,jtvnw.net,🚀 节点选择
-- DOMAIN-SUFFIX,kat.cr,🚀 节点选择
-- DOMAIN-SUFFIX,kik.com,🚀 节点选择
-- DOMAIN-SUFFIX,kobo.com,🚀 节点选择
-- DOMAIN-SUFFIX,kobobooks.com,🚀 节点选择
-- DOMAIN-SUFFIX,licdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,live.net,🚀 节点选择
-- DOMAIN-SUFFIX,livefilestore.com,🚀 节点选择
-- DOMAIN-SUFFIX,llnwd.net,🚀 节点选择
-- DOMAIN-SUFFIX,macrumors.com,🚀 节点选择
-- DOMAIN-SUFFIX,medium.com,🚀 节点选择
-- DOMAIN-SUFFIX,mega.nz,🚀 节点选择
-- DOMAIN-SUFFIX,megaupload.com,🚀 节点选择
-- DOMAIN-SUFFIX,messenger.com,🚀 节点选择
-- DOMAIN-SUFFIX,netdna-cdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,nintendo.net,🚀 节点选择
-- DOMAIN-SUFFIX,nsstatic.net,🚀 节点选择
-- DOMAIN-SUFFIX,nytstyle.com,🚀 节点选择
-- DOMAIN-SUFFIX,overcast.fm,🚀 节点选择
-- DOMAIN-SUFFIX,openvpn.net,🚀 节点选择
-- DOMAIN-SUFFIX,periscope.tv,🚀 节点选择
-- DOMAIN-SUFFIX,pinimg.com,🚀 节点选择
-- DOMAIN-SUFFIX,pinterest.com,🚀 节点选择
-- DOMAIN-SUFFIX,potato.im,🚀 节点选择
-- DOMAIN-SUFFIX,prfct.co,🚀 节点选择
-- DOMAIN-SUFFIX,pscp.tv,🚀 节点选择
-- DOMAIN-SUFFIX,quora.com,🚀 节点选择
-- DOMAIN-SUFFIX,resilio.com,🚀 节点选择
-- DOMAIN-SUFFIX,sfx.ms,🚀 节点选择
-- DOMAIN-SUFFIX,shadowsocks.org,🚀 节点选择
-- DOMAIN-SUFFIX,slack-edge.com,🚀 节点选择
-- DOMAIN-SUFFIX,smartdnsproxy.com,🚀 节点选择
-- DOMAIN-SUFFIX,sndcdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,soundcloud.com,🚀 节点选择
-- DOMAIN-SUFFIX,startpage.com,🚀 节点选择
-- DOMAIN-SUFFIX,staticflickr.com,🚀 节点选择
-- DOMAIN-SUFFIX,symauth.com,🚀 节点选择
-- DOMAIN-SUFFIX,symcb.com,🚀 节点选择
-- DOMAIN-SUFFIX,symcd.com,🚀 节点选择
-- DOMAIN-SUFFIX,textnow.com,🚀 节点选择
-- DOMAIN-SUFFIX,textnow.me,🚀 节点选择
-- DOMAIN-SUFFIX,thefacebook.com,🚀 节点选择
-- DOMAIN-SUFFIX,thepiratebay.org,🚀 节点选择
-- DOMAIN-SUFFIX,torproject.org,🚀 节点选择
-- DOMAIN-SUFFIX,trustasiassl.com,🚀 节点选择
-- DOMAIN-SUFFIX,tumblr.co,🚀 节点选择
-- DOMAIN-SUFFIX,tumblr.com,🚀 节点选择
-- DOMAIN-SUFFIX,tvb.com,🚀 节点选择
-- DOMAIN-SUFFIX,txmblr.com,🚀 节点选择
-- DOMAIN-SUFFIX,v2ex.com,🚀 节点选择
-- DOMAIN-SUFFIX,vimeo.com,🚀 节点选择
-- DOMAIN-SUFFIX,vine.co,🚀 节点选择
-- DOMAIN-SUFFIX,vox-cdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,amazon.co.jp,🚀 节点选择
-- DOMAIN-SUFFIX,amazon.com,🚀 节点选择
-- DOMAIN-SUFFIX,amazonaws.com,🚀 节点选择
-- IP-CIDR,13.32.0.0/15,🚀 节点选择,no-resolve
-- IP-CIDR,13.35.0.0/17,🚀 节点选择,no-resolve
-- IP-CIDR,18.184.0.0/15,🚀 节点选择,no-resolve
-- IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
-- IP-CIDR,18.208.0.0/13,🚀 节点选择,no-resolve
-- IP-CIDR,18.232.0.0/14,🚀 节点选择,no-resolve
-- IP-CIDR,52.58.0.0/15,🚀 节点选择,no-resolve
-- IP-CIDR,52.74.0.0/16,🚀 节点选择,no-resolve
-- IP-CIDR,52.77.0.0/16,🚀 节点选择,no-resolve
-- IP-CIDR,52.84.0.0/15,🚀 节点选择,no-resolve
-- IP-CIDR,52.200.0.0/13,🚀 节点选择,no-resolve
-- IP-CIDR,54.93.0.0/16,🚀 节点选择,no-resolve
-- IP-CIDR,54.156.0.0/14,🚀 节点选择,no-resolve
-- IP-CIDR,54.226.0.0/15,🚀 节点选择,no-resolve
-- IP-CIDR,54.230.156.0/22,🚀 节点选择,no-resolve
-- DOMAIN-KEYWORD,uk-live,🚀 节点选择
-- DOMAIN-SUFFIX,bbc.co,🚀 节点选择
-- DOMAIN-SUFFIX,bbc.com,🚀 节点选择
-- DOMAIN-SUFFIX,apache.org,🚀 节点选择
-- DOMAIN-SUFFIX,docker.com,🚀 节点选择
-- DOMAIN-SUFFIX,elastic.co,🚀 节点选择
-- DOMAIN-SUFFIX,elastic.com,🚀 节点选择
-- DOMAIN-SUFFIX,gcr.io,🚀 节点选择
-- DOMAIN-SUFFIX,gitlab.com,🚀 节点选择
-- DOMAIN-SUFFIX,gitlab.io,🚀 节点选择
-- DOMAIN-SUFFIX,jitpack.io,🚀 节点选择
-- DOMAIN-SUFFIX,maven.org,🚀 节点选择
-- DOMAIN-SUFFIX,medium.com,🚀 节点选择
-- DOMAIN-SUFFIX,mvnrepository.com,🚀 节点选择
-- DOMAIN-SUFFIX,quay.io,🚀 节点选择
-- DOMAIN-SUFFIX,reddit.com,🚀 节点选择
-- DOMAIN-SUFFIX,redhat.com,🚀 节点选择
-- DOMAIN-SUFFIX,sonatype.org,🚀 节点选择
-- DOMAIN-SUFFIX,sourcegraph.com,🚀 节点选择
-- DOMAIN-SUFFIX,spring.io,🚀 节点选择
-- DOMAIN-SUFFIX,spring.net,🚀 节点选择
-- DOMAIN-SUFFIX,stackoverflow.com,🚀 节点选择
-- DOMAIN-SUFFIX,discord.co,🚀 节点选择
-- DOMAIN-SUFFIX,discord.com,🚀 节点选择
-- DOMAIN-SUFFIX,discord.gg,🚀 节点选择
-- DOMAIN-SUFFIX,discord.media,🚀 节点选择
-- DOMAIN-SUFFIX,discordapp.com,🚀 节点选择
-- DOMAIN-SUFFIX,discordapp.net,🚀 节点选择
-- DOMAIN-SUFFIX,facebook.com,🚀 节点选择
-- DOMAIN-SUFFIX,fb.com,🚀 节点选择
-- DOMAIN-SUFFIX,fb.me,🚀 节点选择
-- DOMAIN-SUFFIX,fbcdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,fbcdn.net,🚀 节点选择
-- IP-CIDR,31.13.24.0/21,🚀 节点选择,no-resolve
-- IP-CIDR,31.13.64.0/18,🚀 节点选择,no-resolve
-- IP-CIDR,45.64.40.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,66.220.144.0/20,🚀 节点选择,no-resolve
-- IP-CIDR,69.63.176.0/20,🚀 节点选择,no-resolve
-- IP-CIDR,69.171.224.0/19,🚀 节点选择,no-resolve
-- IP-CIDR,74.119.76.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,103.4.96.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,129.134.0.0/17,🚀 节点选择,no-resolve
-- IP-CIDR,157.240.0.0/17,🚀 节点选择,no-resolve
-- IP-CIDR,173.252.64.0/18,🚀 节点选择,no-resolve
-- IP-CIDR,179.60.192.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,185.60.216.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,204.15.20.0/22,🚀 节点选择,no-resolve
-- DOMAIN-SUFFIX,github.com,🚀 节点选择
-- DOMAIN-SUFFIX,github.io,🚀 节点选择
-- DOMAIN-SUFFIX,githubapp.com,🚀 节点选择
-- DOMAIN-SUFFIX,githubassets.com,🚀 节点选择
-- DOMAIN-SUFFIX,githubusercontent.com,🚀 节点选择
-- DOMAIN-SUFFIX,1e100.net,🚀 节点选择
-- DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
-- DOMAIN-SUFFIX,app-measurement.net,🚀 节点选择
-- DOMAIN-SUFFIX,g.co,🚀 节点选择
-- DOMAIN-SUFFIX,ggpht.com,🚀 节点选择
-- DOMAIN-SUFFIX,goo.gl,🚀 节点选择
-- DOMAIN-SUFFIX,googleapis.cn,🚀 节点选择
-- DOMAIN-SUFFIX,googleapis.com,🚀 节点选择
-- DOMAIN-SUFFIX,gstatic.cn,🚀 节点选择
-- DOMAIN-SUFFIX,gstatic.com,🚀 节点选择
-- DOMAIN-SUFFIX,gvt0.com,🚀 节点选择
-- DOMAIN-SUFFIX,gvt1.com,🚀 节点选择
-- DOMAIN-SUFFIX,gvt2.com,🚀 节点选择
-- DOMAIN-SUFFIX,gvt3.com,🚀 节点选择
-- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
-- DOMAIN-SUFFIX,youtu.be,🚀 节点选择
-- DOMAIN-SUFFIX,youtube-nocookie.com,🚀 节点选择
-- DOMAIN-SUFFIX,youtube.com,🚀 节点选择
-- DOMAIN-SUFFIX,yt.be,🚀 节点选择
-- DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
-- IP-CIDR,74.125.0.0/16,🚀 节点选择,no-resolve
-- IP-CIDR,173.194.0.0/16,🚀 节点选择,no-resolve
-- IP-CIDR,120.232.181.162/32,🚀 节点选择,no-resolve
-- IP-CIDR,120.241.147.226/32,🚀 节点选择,no-resolve
-- IP-CIDR,120.253.253.226/32,🚀 节点选择,no-resolve
-- IP-CIDR,120.253.255.162/32,🚀 节点选择,no-resolve
-- IP-CIDR,120.253.255.34/32,🚀 节点选择,no-resolve
-- IP-CIDR,120.253.255.98/32,🚀 节点选择,no-resolve
-- IP-CIDR,180.163.150.162/32,🚀 节点选择,no-resolve
-- IP-CIDR,180.163.150.34/32,🚀 节点选择,no-resolve
-- IP-CIDR,180.163.151.162/32,🚀 节点选择,no-resolve
-- IP-CIDR,180.163.151.34/32,🚀 节点选择,no-resolve
-- IP-CIDR,203.208.39.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,203.208.40.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,203.208.41.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,203.208.43.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,203.208.50.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,220.181.174.162/32,🚀 节点选择,no-resolve
-- IP-CIDR,220.181.174.226/32,🚀 节点选择,no-resolve
-- IP-CIDR,220.181.174.34/32,🚀 节点选择,no-resolve
-- DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
-- DOMAIN-SUFFIX,instagram.com,🚀 节点选择
-- DOMAIN-SUFFIX,instagr.am,🚀 节点选择
-- DOMAIN-SUFFIX,kakao.com,🚀 节点选择
-- DOMAIN-SUFFIX,kakao.co.kr,🚀 节点选择
-- DOMAIN-SUFFIX,kakaocdn.net,🚀 节点选择
-- IP-CIDR,1.201.0.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,27.0.236.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,103.27.148.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,103.246.56.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,110.76.140.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,113.61.104.0/22,🚀 节点选择,no-resolve
-- DOMAIN-SUFFIX,lin.ee,🚀 节点选择
-- DOMAIN-SUFFIX,line-apps.com,🚀 节点选择
-- DOMAIN-SUFFIX,line-cdn.net,🚀 节点选择
-- DOMAIN-SUFFIX,line-scdn.net,🚀 节点选择
-- DOMAIN-SUFFIX,line.me,🚀 节点选择
-- DOMAIN-SUFFIX,line.naver.jp,🚀 节点选择
-- DOMAIN-SUFFIX,nhncorp.jp,🚀 节点选择
-- IP-CIDR,103.2.28.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,103.2.30.0/23,🚀 节点选择,no-resolve
-- IP-CIDR,119.235.224.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,119.235.232.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,119.235.235.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,119.235.236.0/23,🚀 节点选择,no-resolve
-- IP-CIDR,147.92.128.0/17,🚀 节点选择,no-resolve
-- IP-CIDR,203.104.128.0/19,🚀 节点选择,no-resolve
-- DOMAIN-SUFFIX,openai.com,🚀 节点选择
-- DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
-- DOMAIN-SUFFIX,ai.com,🚀 节点选择
-- DOMAIN-KEYWORD,1drv,🚀 节点选择
-- DOMAIN-KEYWORD,onedrive,🚀 节点选择
-- DOMAIN-KEYWORD,skydrive,🚀 节点选择
-- DOMAIN-SUFFIX,livefilestore.com,🚀 节点选择
-- DOMAIN-SUFFIX,oneclient.sfx.ms,🚀 节点选择
-- DOMAIN-SUFFIX,onedrive.com,🚀 节点选择
-- DOMAIN-SUFFIX,onedrive.live.com,🚀 节点选择
-- DOMAIN-SUFFIX,photos.live.com,🚀 节点选择
-- DOMAIN-SUFFIX,skydrive.wns.windows.com,🚀 节点选择
-- DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 节点选择
-- DOMAIN-SUFFIX,storage.live.com,🚀 节点选择
-- DOMAIN-SUFFIX,storage.msn.com,🚀 节点选择
-- DOMAIN-KEYWORD,porn,🚀 节点选择
-- DOMAIN-SUFFIX,8teenxxx.com,🚀 节点选择
-- DOMAIN-SUFFIX,ahcdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,bcvcdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,bongacams.com,🚀 节点选择
-- DOMAIN-SUFFIX,chaturbate.com,🚀 节点选择
-- DOMAIN-SUFFIX,dditscdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,livejasmin.com,🚀 节点选择
-- DOMAIN-SUFFIX,phncdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,phprcdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,pornhub.com,🚀 节点选择
-- DOMAIN-SUFFIX,pornhubpremium.com,🚀 节点选择
-- DOMAIN-SUFFIX,rdtcdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,redtube.com,🚀 节点选择
-- DOMAIN-SUFFIX,sb-cd.com,🚀 节点选择
-- DOMAIN-SUFFIX,spankbang.com,🚀 节点选择
-- DOMAIN-SUFFIX,t66y.com,🚀 节点选择
-- DOMAIN-SUFFIX,xhamster.com,🚀 节点选择
-- DOMAIN-SUFFIX,xnxx-cdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,xnxx.com,🚀 节点选择
-- DOMAIN-SUFFIX,xvideos-cdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,xvideos.com,🚀 节点选择
-- DOMAIN-SUFFIX,ypncdn.com,🚀 节点选择
-- DOMAIN-SUFFIX,pixiv.net,🚀 节点选择
-- DOMAIN-SUFFIX,pximg.net,🚀 节点选择
-- DOMAIN-SUFFIX,amplitude.com,🚀 节点选择
-- DOMAIN-SUFFIX,firebaseio.com,🚀 节点选择
-- DOMAIN-SUFFIX,hockeyapp.net,🚀 节点选择
-- DOMAIN-SUFFIX,readdle.com,🚀 节点选择
-- DOMAIN-SUFFIX,smartmailcloud.com,🚀 节点选择
-- DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
-- DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
-- DOMAIN-SUFFIX,underlords.com,🚀 节点选择
-- DOMAIN-SUFFIX,valvesoftware.com,🚀 节点选择
-- DOMAIN-SUFFIX,playartifact.com,🚀 节点选择
-- DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
-- DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
-- DOMAIN-SUFFIX,steamgames.com,🚀 节点选择
-- DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
-- DOMAIN-SUFFIX,steamserver.net,🚀 节点选择
-- DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
-- DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
-- DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
-- DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
-- DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
-- DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
-- DOMAIN,steamuserimages-a.akamaihd.net,🚀 节点选择
-- DOMAIN,steampipe.akamaized.net,🚀 节点选择
-- DOMAIN-SUFFIX,tap.io,🚀 节点选择
-- DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
-- DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
-- DOMAIN-SUFFIX,ttvnw.net,🚀 节点选择
-- DOMAIN-SUFFIX,jtvnw.net,🚀 节点选择
-- DOMAIN-KEYWORD,ttvnw,🚀 节点选择
-- DOMAIN-SUFFIX,t.co,🚀 节点选择
-- DOMAIN-SUFFIX,twimg.co,🚀 节点选择
-- DOMAIN-SUFFIX,twimg.com,🚀 节点选择
-- DOMAIN-SUFFIX,twimg.org,🚀 节点选择
-- DOMAIN-SUFFIX,t.me,🚀 节点选择
-- DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
-- DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
-- DOMAIN-SUFFIX,telegram.me,🚀 节点选择
-- DOMAIN-SUFFIX,telegram.org,🚀 节点选择
-- DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
-- IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
-- IP-CIDR,109.239.140.0/24,🚀 节点选择,no-resolve
-- IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
-- IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
-- IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
-- IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
-- DOMAIN-SUFFIX,terabox.com,🚀 节点选择
-- DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
-- IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
-- IP-CIDR,34.224.0.0/12,🚀 节点选择,no-resolve
-- IP-CIDR,54.242.0.0/15,🚀 节点选择,no-resolve
-- IP-CIDR,50.22.198.204/30,🚀 节点选择,no-resolve
-- IP-CIDR,208.43.122.128/27,🚀 节点选择,no-resolve
-- IP-CIDR,108.168.174.0/16,🚀 节点选择,no-resolve
-- IP-CIDR,173.192.231.32/27,🚀 节点选择,no-resolve
-- IP-CIDR,158.85.5.192/27,🚀 节点选择,no-resolve
-- IP-CIDR,174.37.243.0/16,🚀 节点选择,no-resolve
-- IP-CIDR,158.85.46.128/27,🚀 节点选择,no-resolve
-- IP-CIDR,173.192.222.160/27,🚀 节点选择,no-resolve
-- IP-CIDR,184.173.128.0/17,🚀 节点选择,no-resolve
-- IP-CIDR,158.85.224.160/27,🚀 节点选择,no-resolve
-- IP-CIDR,75.126.150.0/16,🚀 节点选择,no-resolve
-- IP-CIDR,69.171.235.0/16,🚀 节点选择,no-resolve
-- DOMAIN-SUFFIX,mediawiki.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikibooks.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikidata.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikileaks.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikimedia.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikinews.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikipedia.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikiquote.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikisource.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikiversity.org,🚀 节点选择
-- DOMAIN-SUFFIX,wikivoyage.org,🚀 节点选择
-- DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
-- DOMAIN-SUFFIX,neulion.com,🚀 节点选择
-- DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
-- DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
-- DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
-- DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
-- DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
+- DOMAIN-SUFFIX,t.me,📲 电报信息
+- DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+- DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+- DOMAIN-SUFFIX,telegram.me,📲 电报信息
+- DOMAIN-SUFFIX,telegram.org,📲 电报信息
+- DOMAIN-SUFFIX,telesco.pe,📲 电报信息
+- IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
+- IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
+- IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
+- DOMAIN-SUFFIX,v2rayse.com,节点选择
+- DOMAIN-SUFFIX,cff.pw,节点选择
+- DOMAIN-SUFFIX,vpnse.org,节点选择
+- DOMAIN-SUFFIX,cfmem.com,节点选择
+- DOMAIN-SUFFIX,1password.com,节点选择
+- DOMAIN-SUFFIX,adguard.org,节点选择
+- DOMAIN-SUFFIX,bit.no.com,节点选择
+- DOMAIN-SUFFIX,btlibrary.me,节点选择
+- DOMAIN-SUFFIX,chat.openai.com,节点选择
+- DOMAIN-SUFFIX,cloudcone.com,节点选择
+- DOMAIN-SUFFIX,dubox.com,节点选择
+- DOMAIN-SUFFIX,gameloft.com,节点选择
+- DOMAIN-SUFFIX,garena.com,节点选择
+- DOMAIN-SUFFIX,hoyolab.com,节点选择
+- DOMAIN-SUFFIX,inoreader.com,节点选择
+- DOMAIN-SUFFIX,ip138.com,节点选择
+- DOMAIN-SUFFIX,linkedin.com,节点选择
+- DOMAIN-SUFFIX,myteamspeak.com,节点选择
+- DOMAIN-SUFFIX,notion.so,节点选择
+- DOMAIN-SUFFIX,openai.com,节点选择
+- DOMAIN-SUFFIX,ping.pe,节点选择
+- DOMAIN-SUFFIX,reddit.com,节点选择
+- DOMAIN-SUFFIX,teddysun.com,节点选择
+- DOMAIN-SUFFIX,tumbex.com,节点选择
+- DOMAIN-SUFFIX,twdvd.com,节点选择
+- DOMAIN-SUFFIX,unsplash.com,节点选择
+- DOMAIN-SUFFIX,eu,节点选择
+- DOMAIN-SUFFIX,hk,节点选择
+- DOMAIN-SUFFIX,jp,节点选择
+- DOMAIN-SUFFIX,kr,节点选择
+- DOMAIN-SUFFIX,sg,节点选择
+- DOMAIN-SUFFIX,tw,节点选择
+- DOMAIN-SUFFIX,uk,节点选择
+- DOMAIN-SUFFIX,us,节点选择
+- DOMAIN-KEYWORD,1e100,节点选择
+- DOMAIN-KEYWORD,abema,节点选择
+- DOMAIN-KEYWORD,appledaily,节点选择
+- DOMAIN-KEYWORD,avtb,节点选择
+- DOMAIN-KEYWORD,beetalk,节点选择
+- DOMAIN-KEYWORD,blogspot,节点选择
+- DOMAIN-KEYWORD,dropbox,节点选择
+- DOMAIN-KEYWORD,facebook,节点选择
+- DOMAIN-KEYWORD,fbcdn,节点选择
+- DOMAIN-KEYWORD,github,节点选择
+- DOMAIN-KEYWORD,gmail,节点选择
+- DOMAIN-KEYWORD,google,节点选择
+- DOMAIN-KEYWORD,instagram,节点选择
+- DOMAIN-KEYWORD,porn,节点选择
+- DOMAIN-KEYWORD,sci-hub,节点选择
+- DOMAIN-KEYWORD,spotify,节点选择
+- DOMAIN-KEYWORD,telegram,节点选择
+- DOMAIN-KEYWORD,twitter,节点选择
+- DOMAIN-KEYWORD,whatsapp,节点选择
+- DOMAIN-KEYWORD,youtube,节点选择
+- DOMAIN-SUFFIX,4sqi.net,节点选择
+- DOMAIN-SUFFIX,a248.e.akamai.net,节点选择
+- DOMAIN-SUFFIX,adobedtm.com,节点选择
+- DOMAIN-SUFFIX,ampproject.org,节点选择
+- DOMAIN-SUFFIX,android.com,节点选择
+- DOMAIN-SUFFIX,aolcdn.com,节点选择
+- DOMAIN-SUFFIX,apkmirror.com,节点选择
+- DOMAIN-SUFFIX,apkpure.com,节点选择
+- DOMAIN-SUFFIX,app-measurement.com,节点选择
+- DOMAIN-SUFFIX,appspot.com,节点选择
+- DOMAIN-SUFFIX,archive.org,节点选择
+- DOMAIN-SUFFIX,armorgames.com,节点选择
+- DOMAIN-SUFFIX,aspnetcdn.com,节点选择
+- DOMAIN-SUFFIX,awsstatic.com,节点选择
+- DOMAIN-SUFFIX,azureedge.net,节点选择
+- DOMAIN-SUFFIX,azurewebsites.net,节点选择
+- DOMAIN-SUFFIX,bandwagonhost.com,节点选择
+- DOMAIN-SUFFIX,bing.com,节点选择
+- DOMAIN-SUFFIX,bkrtx.com,节点选择
+- DOMAIN-SUFFIX,blogcdn.com,节点选择
+- DOMAIN-SUFFIX,blogger.com,节点选择
+- DOMAIN-SUFFIX,blogsmithmedia.com,节点选择
+- DOMAIN-SUFFIX,blogspot.com,节点选择
+- DOMAIN-SUFFIX,blogspot.hk,节点选择
+- DOMAIN-SUFFIX,blogspot.jp,节点选择
+- DOMAIN-SUFFIX,bloomberg.cn,节点选择
+- DOMAIN-SUFFIX,bloomberg.com,节点选择
+- DOMAIN-SUFFIX,box.com,节点选择
+- DOMAIN-SUFFIX,cachefly.net,节点选择
+- DOMAIN-SUFFIX,cdnst.net,节点选择
+- DOMAIN-SUFFIX,cloudfront.net,节点选择
+- DOMAIN-SUFFIX,comodoca.com,节点选择
+- DOMAIN-SUFFIX,daum.net,节点选择
+- DOMAIN-SUFFIX,deskconnect.com,节点选择
+- DOMAIN-SUFFIX,disqus.com,节点选择
+- DOMAIN-SUFFIX,disquscdn.com,节点选择
+- DOMAIN-SUFFIX,dropbox.com,节点选择
+- DOMAIN-SUFFIX,dropboxapi.com,节点选择
+- DOMAIN-SUFFIX,dropboxstatic.com,节点选择
+- DOMAIN-SUFFIX,dropboxusercontent.com,节点选择
+- DOMAIN-SUFFIX,duckduckgo.com,节点选择
+- DOMAIN-SUFFIX,edgecastcdn.net,节点选择
+- DOMAIN-SUFFIX,edgekey.net,节点选择
+- DOMAIN-SUFFIX,edgesuite.net,节点选择
+- DOMAIN-SUFFIX,eurekavpt.com,节点选择
+- DOMAIN-SUFFIX,fastmail.com,节点选择
+- DOMAIN-SUFFIX,firebaseio.com,节点选择
+- DOMAIN-SUFFIX,flickr.com,节点选择
+- DOMAIN-SUFFIX,flipboard.com,节点选择
+- DOMAIN-SUFFIX,gfx.ms,节点选择
+- DOMAIN-SUFFIX,gongm.in,节点选择
+- DOMAIN-SUFFIX,hulu.com,节点选择
+- DOMAIN-SUFFIX,id.heroku.com,节点选择
+- DOMAIN-SUFFIX,io.io,节点选择
+- DOMAIN-SUFFIX,issuu.com,节点选择
+- DOMAIN-SUFFIX,ixquick.com,节点选择
+- DOMAIN-SUFFIX,jtvnw.net,节点选择
+- DOMAIN-SUFFIX,kat.cr,节点选择
+- DOMAIN-SUFFIX,kik.com,节点选择
+- DOMAIN-SUFFIX,kobo.com,节点选择
+- DOMAIN-SUFFIX,kobobooks.com,节点选择
+- DOMAIN-SUFFIX,licdn.com,节点选择
+- DOMAIN-SUFFIX,live.net,节点选择
+- DOMAIN-SUFFIX,livefilestore.com,节点选择
+- DOMAIN-SUFFIX,llnwd.net,节点选择
+- DOMAIN-SUFFIX,macrumors.com,节点选择
+- DOMAIN-SUFFIX,medium.com,节点选择
+- DOMAIN-SUFFIX,mega.nz,节点选择
+- DOMAIN-SUFFIX,megaupload.com,节点选择
+- DOMAIN-SUFFIX,messenger.com,节点选择
+- DOMAIN-SUFFIX,netdna-cdn.com,节点选择
+- DOMAIN-SUFFIX,nintendo.net,节点选择
+- DOMAIN-SUFFIX,nsstatic.net,节点选择
+- DOMAIN-SUFFIX,nytstyle.com,节点选择
+- DOMAIN-SUFFIX,overcast.fm,节点选择
+- DOMAIN-SUFFIX,openvpn.net,节点选择
+- DOMAIN-SUFFIX,periscope.tv,节点选择
+- DOMAIN-SUFFIX,pinimg.com,节点选择
+- DOMAIN-SUFFIX,pinterest.com,节点选择
+- DOMAIN-SUFFIX,potato.im,节点选择
+- DOMAIN-SUFFIX,prfct.co,节点选择
+- DOMAIN-SUFFIX,pscp.tv,节点选择
+- DOMAIN-SUFFIX,quora.com,节点选择
+- DOMAIN-SUFFIX,resilio.com,节点选择
+- DOMAIN-SUFFIX,sfx.ms,节点选择
+- DOMAIN-SUFFIX,shadowsocks.org,节点选择
+- DOMAIN-SUFFIX,slack-edge.com,节点选择
+- DOMAIN-SUFFIX,smartdnsproxy.com,节点选择
+- DOMAIN-SUFFIX,sndcdn.com,节点选择
+- DOMAIN-SUFFIX,soundcloud.com,节点选择
+- DOMAIN-SUFFIX,startpage.com,节点选择
+- DOMAIN-SUFFIX,staticflickr.com,节点选择
+- DOMAIN-SUFFIX,symauth.com,节点选择
+- DOMAIN-SUFFIX,symcb.com,节点选择
+- DOMAIN-SUFFIX,symcd.com,节点选择
+- DOMAIN-SUFFIX,textnow.com,节点选择
+- DOMAIN-SUFFIX,textnow.me,节点选择
+- DOMAIN-SUFFIX,thefacebook.com,节点选择
+- DOMAIN-SUFFIX,thepiratebay.org,节点选择
+- DOMAIN-SUFFIX,torproject.org,节点选择
+- DOMAIN-SUFFIX,trustasiassl.com,节点选择
+- DOMAIN-SUFFIX,tumblr.co,节点选择
+- DOMAIN-SUFFIX,tumblr.com,节点选择
+- DOMAIN-SUFFIX,tvb.com,节点选择
+- DOMAIN-SUFFIX,txmblr.com,节点选择
+- DOMAIN-SUFFIX,v2ex.com,节点选择
+- DOMAIN-SUFFIX,vimeo.com,节点选择
+- DOMAIN-SUFFIX,vine.co,节点选择
+- DOMAIN-SUFFIX,vox-cdn.com,节点选择
+- DOMAIN-SUFFIX,amazon.co.jp,节点选择
+- DOMAIN-SUFFIX,amazon.com,节点选择
+- DOMAIN-SUFFIX,amazonaws.com,节点选择
+- IP-CIDR,13.32.0.0/15,节点选择,no-resolve
+- IP-CIDR,13.35.0.0/17,节点选择,no-resolve
+- IP-CIDR,18.184.0.0/15,节点选择,no-resolve
+- IP-CIDR,18.194.0.0/15,节点选择,no-resolve
+- IP-CIDR,18.208.0.0/13,节点选择,no-resolve
+- IP-CIDR,18.232.0.0/14,节点选择,no-resolve
+- IP-CIDR,52.58.0.0/15,节点选择,no-resolve
+- IP-CIDR,52.74.0.0/16,节点选择,no-resolve
+- IP-CIDR,52.77.0.0/16,节点选择,no-resolve
+- IP-CIDR,52.84.0.0/15,节点选择,no-resolve
+- IP-CIDR,52.200.0.0/13,节点选择,no-resolve
+- IP-CIDR,54.93.0.0/16,节点选择,no-resolve
+- IP-CIDR,54.156.0.0/14,节点选择,no-resolve
+- IP-CIDR,54.226.0.0/15,节点选择,no-resolve
+- IP-CIDR,54.230.156.0/22,节点选择,no-resolve
+- DOMAIN-KEYWORD,uk-live,节点选择
+- DOMAIN-SUFFIX,bbc.co,节点选择
+- DOMAIN-SUFFIX,bbc.com,节点选择
+- DOMAIN-SUFFIX,apache.org,节点选择
+- DOMAIN-SUFFIX,docker.com,节点选择
+- DOMAIN-SUFFIX,elastic.co,节点选择
+- DOMAIN-SUFFIX,elastic.com,节点选择
+- DOMAIN-SUFFIX,gcr.io,节点选择
+- DOMAIN-SUFFIX,gitlab.com,节点选择
+- DOMAIN-SUFFIX,gitlab.io,节点选择
+- DOMAIN-SUFFIX,jitpack.io,节点选择
+- DOMAIN-SUFFIX,maven.org,节点选择
+- DOMAIN-SUFFIX,medium.com,节点选择
+- DOMAIN-SUFFIX,mvnrepository.com,节点选择
+- DOMAIN-SUFFIX,quay.io,节点选择
+- DOMAIN-SUFFIX,reddit.com,节点选择
+- DOMAIN-SUFFIX,redhat.com,节点选择
+- DOMAIN-SUFFIX,sonatype.org,节点选择
+- DOMAIN-SUFFIX,sourcegraph.com,节点选择
+- DOMAIN-SUFFIX,spring.io,节点选择
+- DOMAIN-SUFFIX,spring.net,节点选择
+- DOMAIN-SUFFIX,stackoverflow.com,节点选择
+- DOMAIN-SUFFIX,discord.co,节点选择
+- DOMAIN-SUFFIX,discord.com,节点选择
+- DOMAIN-SUFFIX,discord.gg,节点选择
+- DOMAIN-SUFFIX,discord.media,节点选择
+- DOMAIN-SUFFIX,discordapp.com,节点选择
+- DOMAIN-SUFFIX,discordapp.net,节点选择
+- DOMAIN-SUFFIX,facebook.com,节点选择
+- DOMAIN-SUFFIX,fb.com,节点选择
+- DOMAIN-SUFFIX,fb.me,节点选择
+- DOMAIN-SUFFIX,fbcdn.com,节点选择
+- DOMAIN-SUFFIX,fbcdn.net,节点选择
+- IP-CIDR,31.13.24.0/21,节点选择,no-resolve
+- IP-CIDR,31.13.64.0/18,节点选择,no-resolve
+- IP-CIDR,45.64.40.0/22,节点选择,no-resolve
+- IP-CIDR,66.220.144.0/20,节点选择,no-resolve
+- IP-CIDR,69.63.176.0/20,节点选择,no-resolve
+- IP-CIDR,69.171.224.0/19,节点选择,no-resolve
+- IP-CIDR,74.119.76.0/22,节点选择,no-resolve
+- IP-CIDR,103.4.96.0/22,节点选择,no-resolve
+- IP-CIDR,129.134.0.0/17,节点选择,no-resolve
+- IP-CIDR,157.240.0.0/17,节点选择,no-resolve
+- IP-CIDR,173.252.64.0/18,节点选择,no-resolve
+- IP-CIDR,179.60.192.0/22,节点选择,no-resolve
+- IP-CIDR,185.60.216.0/22,节点选择,no-resolve
+- IP-CIDR,204.15.20.0/22,节点选择,no-resolve
+- DOMAIN-SUFFIX,github.com,节点选择
+- DOMAIN-SUFFIX,github.io,节点选择
+- DOMAIN-SUFFIX,githubapp.com,节点选择
+- DOMAIN-SUFFIX,githubassets.com,节点选择
+- DOMAIN-SUFFIX,githubusercontent.com,节点选择
+- DOMAIN-SUFFIX,1e100.net,节点选择
+- DOMAIN-SUFFIX,2mdn.net,节点选择
+- DOMAIN-SUFFIX,app-measurement.net,节点选择
+- DOMAIN-SUFFIX,g.co,节点选择
+- DOMAIN-SUFFIX,ggpht.com,节点选择
+- DOMAIN-SUFFIX,goo.gl,节点选择
+- DOMAIN-SUFFIX,googleapis.cn,节点选择
+- DOMAIN-SUFFIX,googleapis.com,节点选择
+- DOMAIN-SUFFIX,gstatic.cn,节点选择
+- DOMAIN-SUFFIX,gstatic.com,节点选择
+- DOMAIN-SUFFIX,gvt0.com,节点选择
+- DOMAIN-SUFFIX,gvt1.com,节点选择
+- DOMAIN-SUFFIX,gvt2.com,节点选择
+- DOMAIN-SUFFIX,gvt3.com,节点选择
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
+- DOMAIN-SUFFIX,youtu.be,节点选择
+- DOMAIN-SUFFIX,youtube-nocookie.com,节点选择
+- DOMAIN-SUFFIX,youtube.com,节点选择
+- DOMAIN-SUFFIX,yt.be,节点选择
+- DOMAIN-SUFFIX,ytimg.com,节点选择
+- IP-CIDR,74.125.0.0/16,节点选择,no-resolve
+- IP-CIDR,173.194.0.0/16,节点选择,no-resolve
+- IP-CIDR,120.232.181.162/32,节点选择,no-resolve
+- IP-CIDR,120.241.147.226/32,节点选择,no-resolve
+- IP-CIDR,120.253.253.226/32,节点选择,no-resolve
+- IP-CIDR,120.253.255.162/32,节点选择,no-resolve
+- IP-CIDR,120.253.255.34/32,节点选择,no-resolve
+- IP-CIDR,120.253.255.98/32,节点选择,no-resolve
+- IP-CIDR,180.163.150.162/32,节点选择,no-resolve
+- IP-CIDR,180.163.150.34/32,节点选择,no-resolve
+- IP-CIDR,180.163.151.162/32,节点选择,no-resolve
+- IP-CIDR,180.163.151.34/32,节点选择,no-resolve
+- IP-CIDR,203.208.39.0/24,节点选择,no-resolve
+- IP-CIDR,203.208.40.0/24,节点选择,no-resolve
+- IP-CIDR,203.208.41.0/24,节点选择,no-resolve
+- IP-CIDR,203.208.43.0/24,节点选择,no-resolve
+- IP-CIDR,203.208.50.0/24,节点选择,no-resolve
+- IP-CIDR,220.181.174.162/32,节点选择,no-resolve
+- IP-CIDR,220.181.174.226/32,节点选择,no-resolve
+- IP-CIDR,220.181.174.34/32,节点选择,no-resolve
+- DOMAIN-SUFFIX,cdninstagram.com,节点选择
+- DOMAIN-SUFFIX,instagram.com,节点选择
+- DOMAIN-SUFFIX,instagr.am,节点选择
+- DOMAIN-SUFFIX,kakao.com,节点选择
+- DOMAIN-SUFFIX,kakao.co.kr,节点选择
+- DOMAIN-SUFFIX,kakaocdn.net,节点选择
+- IP-CIDR,1.201.0.0/24,节点选择,no-resolve
+- IP-CIDR,27.0.236.0/22,节点选择,no-resolve
+- IP-CIDR,103.27.148.0/22,节点选择,no-resolve
+- IP-CIDR,103.246.56.0/22,节点选择,no-resolve
+- IP-CIDR,110.76.140.0/22,节点选择,no-resolve
+- IP-CIDR,113.61.104.0/22,节点选择,no-resolve
+- DOMAIN-SUFFIX,lin.ee,节点选择
+- DOMAIN-SUFFIX,line-apps.com,节点选择
+- DOMAIN-SUFFIX,line-cdn.net,节点选择
+- DOMAIN-SUFFIX,line-scdn.net,节点选择
+- DOMAIN-SUFFIX,line.me,节点选择
+- DOMAIN-SUFFIX,line.naver.jp,节点选择
+- DOMAIN-SUFFIX,nhncorp.jp,节点选择
+- IP-CIDR,103.2.28.0/24,节点选择,no-resolve
+- IP-CIDR,103.2.30.0/23,节点选择,no-resolve
+- IP-CIDR,119.235.224.0/24,节点选择,no-resolve
+- IP-CIDR,119.235.232.0/24,节点选择,no-resolve
+- IP-CIDR,119.235.235.0/24,节点选择,no-resolve
+- IP-CIDR,119.235.236.0/23,节点选择,no-resolve
+- IP-CIDR,147.92.128.0/17,节点选择,no-resolve
+- IP-CIDR,203.104.128.0/19,节点选择,no-resolve
+- DOMAIN-KEYWORD,1drv,节点选择
+- DOMAIN-KEYWORD,onedrive,节点选择
+- DOMAIN-KEYWORD,skydrive,节点选择
+- DOMAIN-SUFFIX,livefilestore.com,节点选择
+- DOMAIN-SUFFIX,oneclient.sfx.ms,节点选择
+- DOMAIN-SUFFIX,onedrive.com,节点选择
+- DOMAIN-SUFFIX,onedrive.live.com,节点选择
+- DOMAIN-SUFFIX,photos.live.com,节点选择
+- DOMAIN-SUFFIX,skydrive.wns.windows.com,节点选择
+- DOMAIN-SUFFIX,spoprod-a.akamaihd.net,节点选择
+- DOMAIN-SUFFIX,storage.live.com,节点选择
+- DOMAIN-SUFFIX,storage.msn.com,节点选择
+- DOMAIN-KEYWORD,porn,节点选择
+- DOMAIN-SUFFIX,8teenxxx.com,节点选择
+- DOMAIN-SUFFIX,ahcdn.com,节点选择
+- DOMAIN-SUFFIX,bcvcdn.com,节点选择
+- DOMAIN-SUFFIX,bongacams.com,节点选择
+- DOMAIN-SUFFIX,chaturbate.com,节点选择
+- DOMAIN-SUFFIX,dditscdn.com,节点选择
+- DOMAIN-SUFFIX,livejasmin.com,节点选择
+- DOMAIN-SUFFIX,phncdn.com,节点选择
+- DOMAIN-SUFFIX,phprcdn.com,节点选择
+- DOMAIN-SUFFIX,pornhub.com,节点选择
+- DOMAIN-SUFFIX,pornhubpremium.com,节点选择
+- DOMAIN-SUFFIX,rdtcdn.com,节点选择
+- DOMAIN-SUFFIX,redtube.com,节点选择
+- DOMAIN-SUFFIX,sb-cd.com,节点选择
+- DOMAIN-SUFFIX,spankbang.com,节点选择
+- DOMAIN-SUFFIX,t66y.com,节点选择
+- DOMAIN-SUFFIX,xhamster.com,节点选择
+- DOMAIN-SUFFIX,xnxx-cdn.com,节点选择
+- DOMAIN-SUFFIX,xnxx.com,节点选择
+- DOMAIN-SUFFIX,xvideos-cdn.com,节点选择
+- DOMAIN-SUFFIX,xvideos.com,节点选择
+- DOMAIN-SUFFIX,ypncdn.com,节点选择
+- DOMAIN-SUFFIX,pixiv.net,节点选择
+- DOMAIN-SUFFIX,pximg.net,节点选择
+- DOMAIN-SUFFIX,amplitude.com,节点选择
+- DOMAIN-SUFFIX,firebaseio.com,节点选择
+- DOMAIN-SUFFIX,hockeyapp.net,节点选择
+- DOMAIN-SUFFIX,readdle.com,节点选择
+- DOMAIN-SUFFIX,smartmailcloud.com,节点选择
+- DOMAIN-SUFFIX,fanatical.com,节点选择
+- DOMAIN-SUFFIX,humblebundle.com,节点选择
+- DOMAIN-SUFFIX,underlords.com,节点选择
+- DOMAIN-SUFFIX,valvesoftware.com,节点选择
+- DOMAIN-SUFFIX,playartifact.com,节点选择
+- DOMAIN-SUFFIX,steam-chat.com,节点选择
+- DOMAIN-SUFFIX,steamcommunity.com,节点选择
+- DOMAIN-SUFFIX,steamgames.com,节点选择
+- DOMAIN-SUFFIX,steampowered.com,节点选择
+- DOMAIN-SUFFIX,steamserver.net,节点选择
+- DOMAIN-SUFFIX,steamstatic.com,节点选择
+- DOMAIN-SUFFIX,steamstat.us,节点选择
+- DOMAIN,steambroadcast.akamaized.net,节点选择
+- DOMAIN,steamcdn-a.akamaihd.net,节点选择
+- DOMAIN,steamcommunity-a.akamaihd.net,节点选择
+- DOMAIN,steamstore-a.akamaihd.net,节点选择
+- DOMAIN,steamusercontent-a.akamaihd.net,节点选择
+- DOMAIN,steamuserimages-a.akamaihd.net,节点选择
+- DOMAIN,steampipe.akamaized.net,节点选择
+- DOMAIN-SUFFIX,tap.io,节点选择
+- DOMAIN-SUFFIX,taptap.tw,节点选择
+- DOMAIN-SUFFIX,twitch.tv,节点选择
+- DOMAIN-SUFFIX,ttvnw.net,节点选择
+- DOMAIN-SUFFIX,jtvnw.net,节点选择
+- DOMAIN-KEYWORD,ttvnw,节点选择
+- DOMAIN-SUFFIX,t.co,节点选择
+- DOMAIN-SUFFIX,twimg.co,节点选择
+- DOMAIN-SUFFIX,twimg.com,节点选择
+- DOMAIN-SUFFIX,twimg.org,节点选择
+- DOMAIN-SUFFIX,t.me,节点选择
+- DOMAIN-SUFFIX,tdesktop.com,节点选择
+- DOMAIN-SUFFIX,telegra.ph,节点选择
+- DOMAIN-SUFFIX,telegram.me,节点选择
+- DOMAIN-SUFFIX,telegram.org,节点选择
+- DOMAIN-SUFFIX,telesco.pe,节点选择
+- IP-CIDR,91.108.0.0/16,节点选择,no-resolve
+- IP-CIDR,109.239.140.0/24,节点选择,no-resolve
+- IP-CIDR,149.154.160.0/20,节点选择,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,节点选择,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,节点选择,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,节点选择,no-resolve
+- DOMAIN-SUFFIX,terabox.com,节点选择
+- DOMAIN-SUFFIX,teraboxcdn.com,节点选择
+- IP-CIDR,18.194.0.0/15,节点选择,no-resolve
+- IP-CIDR,34.224.0.0/12,节点选择,no-resolve
+- IP-CIDR,54.242.0.0/15,节点选择,no-resolve
+- IP-CIDR,50.22.198.204/30,节点选择,no-resolve
+- IP-CIDR,208.43.122.128/27,节点选择,no-resolve
+- IP-CIDR,108.168.174.0/16,节点选择,no-resolve
+- IP-CIDR,173.192.231.32/27,节点选择,no-resolve
+- IP-CIDR,158.85.5.192/27,节点选择,no-resolve
+- IP-CIDR,174.37.243.0/16,节点选择,no-resolve
+- IP-CIDR,158.85.46.128/27,节点选择,no-resolve
+- IP-CIDR,173.192.222.160/27,节点选择,no-resolve
+- IP-CIDR,184.173.128.0/17,节点选择,no-resolve
+- IP-CIDR,158.85.224.160/27,节点选择,no-resolve
+- IP-CIDR,75.126.150.0/16,节点选择,no-resolve
+- IP-CIDR,69.171.235.0/16,节点选择,no-resolve
+- DOMAIN-SUFFIX,mediawiki.org,节点选择
+- DOMAIN-SUFFIX,wikibooks.org,节点选择
+- DOMAIN-SUFFIX,wikidata.org,节点选择
+- DOMAIN-SUFFIX,wikileaks.org,节点选择
+- DOMAIN-SUFFIX,wikimedia.org,节点选择
+- DOMAIN-SUFFIX,wikinews.org,节点选择
+- DOMAIN-SUFFIX,wikipedia.org,节点选择
+- DOMAIN-SUFFIX,wikiquote.org,节点选择
+- DOMAIN-SUFFIX,wikisource.org,节点选择
+- DOMAIN-SUFFIX,wikiversity.org,节点选择
+- DOMAIN-SUFFIX,wikivoyage.org,节点选择
+- DOMAIN-SUFFIX,wiktionary.org,节点选择
+- DOMAIN-SUFFIX,neulion.com,节点选择
+- DOMAIN-SUFFIX,icntv.xyz,节点选择
+- DOMAIN-SUFFIX,flzbcdn.xyz,节点选择
+- DOMAIN-SUFFIX,ocnttv.com,节点选择
+- DOMAIN-SUFFIX,vikacg.com,节点选择
+- DOMAIN-SUFFIX,picjs.xyz,节点选择
 - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
 - DOMAIN-SUFFIX,423down.com,🎯 全球直连
 - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -3076,6 +2999,7 @@ rules:
 - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
 - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
 - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
+- DOMAIN-KEYWORD,-cn,🎯 全球直连
 - DOMAIN-KEYWORD,360buy,🎯 全球直连
 - DOMAIN-KEYWORD,alicdn,🎯 全球直连
 - DOMAIN-KEYWORD,alimama,🎯 全球直连
@@ -3185,7 +3109,6 @@ rules:
 - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
 - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
 - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
-- DOMAIN-SUFFIX,douyincdn.com,🎯 全球直连
 - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
 - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
 - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
@@ -3234,7 +3157,6 @@ rules:
 - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
 - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
 - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
-- DOMAIN-SUFFIX,hihonor.com,🎯 全球直连
 - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
 - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
 - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
@@ -3340,7 +3262,6 @@ rules:
 - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
 - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
 - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
-- DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
 - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
 - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
 - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
@@ -3395,128 +3316,43 @@ rules:
 - DOMAIN-KEYWORD,announce,🎯 全球直连
 - DOMAIN-KEYWORD,torrent,🎯 全球直连
 - DOMAIN-KEYWORD,tracker,🎯 全球直连
-- DOMAIN-KEYWORD,announce,🎯 全球直连
-- DOMAIN-KEYWORD,torrent,🎯 全球直连
-- DOMAIN-KEYWORD,tracker,🎯 全球直连
-- DOMAIN-SUFFIX,52pt.site,🎯 全球直连
-- DOMAIN-SUFFIX,aidoru-online.me,🎯 全球直连
-- DOMAIN-SUFFIX,alpharatio.cc,🎯 全球直连
 - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
 - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
-- DOMAIN-SUFFIX,anthelion.me,🎯 全球直连
-- DOMAIN-SUFFIX,asiancinema.me,🎯 全球直连
-- DOMAIN-SUFFIX,audiences.me,🎯 全球直连
-- DOMAIN-SUFFIX,avgv.cc,🎯 全球直连
-- DOMAIN-SUFFIX,avistaz.to,🎯 全球直连
 - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
 - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
-- DOMAIN-SUFFIX,beyond-hd.me,🎯 全球直连
-- DOMAIN-SUFFIX,bibliotik.me,🎯 全球直连
 - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
-- DOMAIN-SUFFIX,blutopia.xyz,🎯 全球直连
 - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
-- DOMAIN-SUFFIX,bt.byr.cn,🎯 全球直连
-- DOMAIN-SUFFIX,bt.neu6.edu.cn,🎯 全球直连
-- DOMAIN-SUFFIX,btschool.club,🎯 全球直连
-- DOMAIN-SUFFIX,bwtorrents.tv,🎯 全球直连
-- DOMAIN-SUFFIX,byr.pt,🎯 全球直连
-- DOMAIN-SUFFIX,ccfbits.org,🎯 全球直连
-- DOMAIN-SUFFIX,cgpeers.com,🎯 全球直连
 - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
-- DOMAIN-SUFFIX,cinemageddon.net,🎯 全球直连
-- DOMAIN-SUFFIX,cinematik.net,🎯 全球直连
-- DOMAIN-SUFFIX,cinemaz.to,🎯 全球直连
 - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
-- DOMAIN-SUFFIX,concertos.live,🎯 全球直连
-- DOMAIN-SUFFIX,dicmusic.club,🎯 全球直连
-- DOMAIN-SUFFIX,discfan.net,🎯 全球直连
-- DOMAIN-SUFFIX,dxdhd.com,🎯 全球直连
-- DOMAIN-SUFFIX,eastgame.org,🎯 全球直连
 - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
-- DOMAIN-SUFFIX,et8.org,🎯 全球直连
-- DOMAIN-SUFFIX,exoticaz.to,🎯 全球直连
-- DOMAIN-SUFFIX,extremlymtorrents.ws,🎯 全球直连
-- DOMAIN-SUFFIX,filelist.io,🎯 全球直连
-- DOMAIN-SUFFIX,gainbound.net,🎯 全球直连
 - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
-- DOMAIN-SUFFIX,gfxpeers.net,🎯 全球直连
-- DOMAIN-SUFFIX,hd-space.org,🎯 全球直连
-- DOMAIN-SUFFIX,hd-torrents.org,🎯 全球直连
-- DOMAIN-SUFFIX,hd4.xyz,🎯 全球直连
 - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
-- DOMAIN-SUFFIX,hdarea.co,🎯 全球直连
-- DOMAIN-SUFFIX,hdatmos.club,🎯 全球直连
-- DOMAIN-SUFFIX,hdbd.us,🎯 全球直连
-- DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
 - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
-- DOMAIN-SUFFIX,hdcity.city,🎯 全球直连
-- DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
-- DOMAIN-SUFFIX,hdfans.org,🎯 全球直连
 - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
-- DOMAIN-SUFFIX,hdpost.top,🎯 全球直连
-- DOMAIN-SUFFIX,hdroute.org,🎯 全球直连
 - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
-- DOMAIN-SUFFIX,hdstreet.club,🎯 全球直连
 - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
-- DOMAIN-SUFFIX,hdupt.com,🎯 全球直连
 - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
-- DOMAIN-SUFFIX,hhanclub.top,🎯 全球直连
-- DOMAIN-SUFFIX,hitpt.com,🎯 全球直连
-- DOMAIN-SUFFIX,hitpt.org,🎯 全球直连
-- DOMAIN-SUFFIX,hudbt.hust.edu.cn,🎯 全球直连
 - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
-- DOMAIN-SUFFIX,iptorrents.com,🎯 全球直连
-- DOMAIN-SUFFIX,j99.info,🎯 全球直连
-- DOMAIN-SUFFIX,joyhd.net,🎯 全球直连
 - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
-- DOMAIN-SUFFIX,karagarga.in,🎯 全球直连
 - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
-- DOMAIN-SUFFIX,landof.tv,🎯 全球直连
 - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
-- DOMAIN-SUFFIX,lemonhd.org,🎯 全球直连
-- DOMAIN-SUFFIX,lztr.me,🎯 全球直连
 - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
 - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
-- DOMAIN-SUFFIX,moecat.best,🎯 全球直连
-- DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
 - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
-- DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
 - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
 - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
-- DOMAIN-SUFFIX,nebulance.io,🎯 全球直连
-- DOMAIN-SUFFIX,nicept.net,🎯 全球直连
-- DOMAIN-SUFFIX,npupt.com,🎯 全球直连
-- DOMAIN-SUFFIX,nwsuaf6.edu.cn,🎯 全球直连
 - DOMAIN-SUFFIX,open.cd,🎯 全球直连
-- DOMAIN-SUFFIX,oppaiti.me,🎯 全球直连
-- DOMAIN-SUFFIX,orpheus.network,🎯 全球直连
 - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
 - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
-- DOMAIN-SUFFIX,pornbits.net,🎯 全球直连
 - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
-- DOMAIN-SUFFIX,pterclub.com,🎯 全球直连
 - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
-- DOMAIN-SUFFIX,ptsbao.club,🎯 全球直连
-- DOMAIN-SUFFIX,pttime.org,🎯 全球直连
-- DOMAIN-SUFFIX,pussytorrents.org,🎯 全球直连
 - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
-- DOMAIN-SUFFIX,sdbits.org,🎯 全球直连
-- DOMAIN-SUFFIX,sharkpt.net,🎯 全球直连
-- DOMAIN-SUFFIX,sjtu.edu.cn,🎯 全球直连
-- DOMAIN-SUFFIX,skyey2.com,🎯 全球直连
-- DOMAIN-SUFFIX,soulvoice.club,🎯 全球直连
 - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
-- DOMAIN-SUFFIX,tju.pt,🎯 全球直连
 - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
-- DOMAIN-SUFFIX,torrentday.com,🎯 全球直连
-- DOMAIN-SUFFIX,torrentleech.org,🎯 全球直连
-- DOMAIN-SUFFIX,torrentseeds.org,🎯 全球直连
 - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
 - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
-- DOMAIN-SUFFIX,u2.dmhy.org,🎯 全球直连
-- DOMAIN-SUFFIX,uhdbits.org,🎯 全球直连
-- DOMAIN-SUFFIX,xauat6.edu.cn,🎯 全球直连
 - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
+- IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
 - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
 - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
 - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
@@ -3672,9 +3508,7 @@ rules:
 - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
 - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
 - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
-- DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
 - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
-- DOMAIN-SUFFIX,oppo.com,🎯 全球直连
 - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
 - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
 - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
@@ -3696,7 +3530,6 @@ rules:
 - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
 - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
 - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
-- DOMAIN-SUFFIX,realme.com,🎯 全球直连
 - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
 - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
 - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
@@ -3730,7 +3563,6 @@ rules:
 - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
 - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
 - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
-- DOMAIN-SUFFIX,vivo.com,🎯 全球直连
 - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
 - DOMAIN-SUFFIX,weather.com,🎯 全球直连
 - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
